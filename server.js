@@ -29,3 +29,6 @@ app.use("/", require("./server/routes/router"));
 app.listen(PORT, () => {
   console.log(`Attendance Backend is running at http://localhost:${PORT}`);
 });
+
+// ADD VERCEL IMPORT
+module.exports = app
